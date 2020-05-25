@@ -1,0 +1,2 @@
+# bin
+scripts n shit
