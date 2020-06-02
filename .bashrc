@@ -16,7 +16,10 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000 HISTFILESIZE=2000 # check the window size after each command and, if necessary,
+HISTSIZE=1000
+HISTFILESIZE=2000
+
+# check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
 shopt -s checkwinsize
 
@@ -113,13 +116,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-PATH="$HOME/.local/bin:$HOME/bin:$PATH"
-
 export EDITOR=vim
 
-# XServer
-export DISPLAY=:0.0
+PATH="$HOME/.local/bin:$HOME/bin:$PATH"
 
-cd /home/migara/
-
-#export PS1='\[\e]0;\w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\[\033[00m\] \w '

@@ -1,4 +1,4 @@
 sudo apt update
 sudo apt upgrade
 sudo apt install htop git tmux vim-gtk python3 neofetch
-sudo apt install sl cowsay lolcat toilet 
+sudo apt install sl cmatrix cowsay lolcat toilet 
