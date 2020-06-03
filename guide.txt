@@ -20,7 +20,7 @@ vm.dirty_ratio=10
 
 # VIMSETUP
 sudo apt install curl wget vim build-essential 
-cd ~/dotfiles
+cd ~/bin/vim
 cp .vimrc ~/
 cp .vimrc.plug ~/
 cp vim/vimsetup.sh ~/
