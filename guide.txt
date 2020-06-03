@@ -1,0 +1,32 @@
+# install distro of choice
+# apply updates
+# reboot
+
+https://www.kevin-custer.com/blog/disabling-snaps-in-ubuntu-20-04/
+
+
+# sudo vim /etc/default/grub
+text mitgations=off
+
+
+# sudo vim /etc/sysctl.conf
+#secret_sauce
+vm.swappiness=1
+vm.vfs_cache_pressure=50
+vm.dirty_background_ratio=5
+vm.dirty_ratio=10
+
+
+
+# VIMSETUP
+sudo apt install curl wget vim build-essential 
+cd ~/dotfiles
+cp .vimrc ~/
+cp .vimrc.plug ~/
+cp vim/vimsetup.sh ~/
+#open vim
+:PlugInstall
+
+# TMUX
+cp .tmux.conf ~/
+# comment out line 44 & 45
