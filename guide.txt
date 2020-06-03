@@ -30,3 +30,8 @@ cp vim/vimsetup.sh ~/
 # TMUX
 cp .tmux.conf ~/
 # comment out line 44 & 45
+
+# DOOM
+https://zdoom.org/downloads
+copy wad files to ~/.config/gzdoom
+
