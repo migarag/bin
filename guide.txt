@@ -35,3 +35,6 @@ cp .tmux.conf ~/
 https://zdoom.org/downloads
 copy wad files to ~/.config/gzdoom
 
+# SCREEN TEARING (GNOME)
+sudo add-apt-repository ppa:oibaf/graphics-drivers
+sudo apt update && sudo apt upgrade
